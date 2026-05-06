@@ -212,8 +212,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Construir slides con todas las imágenes del producto
         const wrapper = document.getElementById('modal-swiper-wrapper');
         wrapper.innerHTML = product.images.map(img =>
-            `<div class="swiper-slide" style="display:flex;align-items:center;justify-content:center;background:#f5f5f5;">
-                <img src="${img}" style="max-width:100%;max-height:340px;object-fit:contain;cursor:zoom-in;" class="modal-zoom-img">
+            `<div class="swiper-slide">
+                <img src="${img}" class="modal-zoom-img">
              </div>`
         ).join('');
 
