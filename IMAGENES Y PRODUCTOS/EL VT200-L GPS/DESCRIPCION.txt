@@ -1,0 +1,5 @@
+EL VT200-L cuenta con una memoria Flash integrada de 128 MB. Al entrar en zonas sin cobertura, guarda automáticamente los datos históricos de posicionamiento. Una vez restablecida la conexión a la red, reenvía automáticamente dichos datos a la plataforma.
+Este GPS dentro de sus configuraciones permite:
+ lectura de SONDA de TEMPERATURA para camiones frigoríficos.
+CONECTAR IBUTTON con llave DALLAS. Ejemplo. Al poner la llave en la chapa del vehiculo y girarla este emite un agudo pitido lo que hace necesario acercar una llave de contacto, esto apaga el buzzer y desbloquea el vehiculo permitiendo que este pueda iniciar su marcha.
+Rele para bloquear el vehiculo en caso de robo o uso no autorizado.

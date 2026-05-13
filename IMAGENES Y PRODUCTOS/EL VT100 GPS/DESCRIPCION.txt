@@ -1,0 +1,2 @@
+EL VT100, Es un GPS de excelente calidad con certificación IP66, esto significa que soporta humedad del ambiente. Funciona con voltajes desde 9 a 100 volts.
+Admite incorporar un Rele para bloquear el vehiculo en caso de robo o uso no autorizado.

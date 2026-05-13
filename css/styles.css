@@ -239,7 +239,7 @@ img {
 }
 
 .logo img {
-    height: 45px;
+    height: 80px;
     transition: var(--transition-normal);
 }
 
@@ -1180,7 +1180,8 @@ img {
 }
 
 @media (max-width: 768px) {
-    .nav { display: none; }
+    .header-content { flex-direction: column; gap: 10px; }
+    .nav { gap: 15px; flex-wrap: wrap; justify-content: center; font-size: 0.9rem; }
     .hero h1 { font-size: 2rem; }
     .hero p { font-size: 1rem; }
     .section-title h2 { font-size: 2rem; }

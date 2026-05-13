@@ -1,0 +1,2 @@
+La APLICACION de rastreo. WWW.ITRACKCARE.COM  es muy amigable, de fácil uso, permite revisión de los dispositivos instalados en tiempo real. el usuario puede programar esta aplicación para que envie un informe semanal del comportamiento del conductor, informes como: exceso de velocidad, detenciones en ruta, kilómetros recorridos, encendido y apagado del vehiculo, además de enviar el comando de bloqueo y desbloqueo del vehiculo en caso de robo.
+Esta aplicación se puede usar en cualquier computador ANDROID o APPLE y en cualquier teléfono.

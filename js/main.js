@@ -10,56 +10,66 @@ document.addEventListener('DOMContentLoaded', () => {
     const productDB = [
         {
             id: 1,
-            title: "GPS Vehicular VT100 / VT200",
-            category: "GPS",
+            title: "GPS PT60-L",
+            category: "Magnetico",
             images: [
-                "assets/img/FOTO_GPS_VT100-removebg-removebg-preview.png",
-                "assets/img/FOTO_GPS_VT100-removebg-removebg-preview-480x407.png"
+                "IMAGENES Y PRODUCTOS/El GPS PT60-L/PORTADA.jpg",
+                "IMAGENES Y PRODUCTOS/El GPS PT60-L/GPSINALAMBRICO2.jpg",
+                "IMAGENES Y PRODUCTOS/El GPS PT60-L/WhatsApp Image 2026-05-11 at 1.24.14 PM.jpeg"
             ],
-            description: "Rastreador GPS 4G LTE ideal para gestión de flotas, vehículos particulares y logística. Cuenta con corte de motor a distancia.",
-            specs: ["Red 4G LTE rápida y estable", "Batería de respaldo integrada", "Corte de corriente remoto"]
+            description: "El GPS PT60-L es un localizador inalámbrico 4G. Este dispositivo sirve para posicionamiento de vehículos, activos y aplicaciones desatendidas. Incorpora una antena GPS de alta sensibilidad y una antena de comunicación 4G para un posicionamiento rápido. Es recargable y cuenta con potentes imanes integrados para una fácil instalación. Este GPS inalámbrico incorpora una batería de iones de litio de alta capacidad de 7500 mAh que proporciona una duración 3 meses sin tener que recargar. Es inalámbrico y portátil se puede instalar fácilmente en camiones, remolques, contenedores, equipaje y personas.",
+            specs: ["Inalámbrico 4G", "Batería 7500 mAh (3 meses)", "Imanes integrados"]
         },
         {
-            id: 2,
-            title: "Cámara IA Tercer Ojo (DMS/ADAS)",
-            category: "Camara",
+            id: 5,
+            title: "VT200-L GPS",
+            category: "GPS",
             images: [
-                "assets/img/sensor1.jpg",
-                "assets/img/sensor2.jpg",
-                "assets/img/sensor3.jpg",
-                "assets/img/sensor4.jpg",
-                "assets/img/sensor5.jpg",
-                "assets/img/sensor6.jpg",
-                "assets/img/sensor7.jpg"
+                "IMAGENES Y PRODUCTOS/EL VT200-L GPS/PORTADA.jpeg",
+                "IMAGENES Y PRODUCTOS/EL VT200-L GPS/imgi_10_VT200-L-4G-Tracker.jpg",
+                "IMAGENES Y PRODUCTOS/EL VT200-L GPS/imgi_11_VT200-L-gps-tracker.jpg",
+                "IMAGENES Y PRODUCTOS/EL VT200-L GPS/imgi_6_gps-tracking-device-4g.jpg",
+                "IMAGENES Y PRODUCTOS/EL VT200-L GPS/imgi_7_4g-tracker-gps.jpg"
             ],
-            description: "Sistema Avanzado de Asistencia al Conductor (ADAS) y Monitorización del Estado del Conductor (DMS). Previene accidentes detectando fatiga y distracción.",
-            specs: ["Reconocimiento Facial IA", "Alerta de Fatiga/Distracción", "Grabación en Tiempo Real"]
+            description: "EL VT200-L cuenta con una memoria Flash integrada de 128 MB. Al entrar en zonas sin cobertura, guarda automáticamente los datos históricos de posicionamiento. Una vez restablecida la conexión a la red, reenvía automáticamente dichos datos a la plataforma. Este GPS dentro de sus configuraciones permite: lectura de SONDA de TEMPERATURA, CONECTAR IBUTTON con llave DALLAS y Rele para bloquear el vehiculo.",
+            specs: ["Memoria Flash 128MB", "Sonda de Temperatura", "Soporte Llave DALLAS"]
         },
         {
             id: 3,
-            title: "DVR Móvil para Flotas",
+            title: "Cámara con IA-DC600 4G",
             category: "Camara",
             images: [
-                "assets/img/dvr1.jpg",
-                "assets/img/dvr2.jpg",
-                "assets/img/dvr3.jpg",
-                "assets/img/dvr4.jpg",
-                "assets/img/dvr5.jpg",
-                "assets/img/dvr6.jpg"
+                "IMAGENES Y PRODUCTOS/Cámara con IA-DC600 4G/PORTADA.jpg",
+                "IMAGENES Y PRODUCTOS/Cámara con IA-DC600 4G/imgi_10_high-quality-dashcam.jpg",
+                "IMAGENES Y PRODUCTOS/Cámara con IA-DC600 4G/imgi_8_dash-camera-application.jpg",
+                "IMAGENES Y PRODUCTOS/Cámara con IA-DC600 4G/imgi_9_dash-camera.jpg",
+                "IMAGENES Y PRODUCTOS/Cámara con IA-DC600 4G/WhatsApp Image 2026-05-11 at 1.24.14 PMff.jpeg"
             ],
-            description: "Solución de videovigilancia móvil (MDVR) diseñada para vehículos pesados, transporte de pasajeros y maquinaria minera.",
-            specs: ["Soporte de múltiples cámaras", "Disco duro antichoque", "Transmisión de video en vivo"]
+            description: "Cámara con IA-DC600 4G, esta cámara es una combinación de tercer ojo, sensor de somnolencia y un GPS de alta precisión. Esta usa una tarjeta TF para almacenar las grabaciones que luego se pueden reproducir en cualquier PC o Laptop. Tambien se le puede insertar una simcard de datos, lo que permite ver en tiempo real por las cámaras incorporadas el comportamiento del conductor y sus pasajeros además de observar la carretera.",
+            specs: ["Sensor de somnolencia", "Grabación en tarjeta TF", "Transmisión en tiempo real"]
         },
         {
             id: 4,
-            title: "GPS Magnético Inalámbrico",
-            category: "Magnetico",
+            title: "VT100 GPS",
+            category: "GPS",
             images: [
-                "GPSINALAMBRICO1.jpg",
-                "GPSINALAMBRICO2.jpg"
+                "IMAGENES Y PRODUCTOS/EL VT100 GPS/PORTADA.jpg",
+                "IMAGENES Y PRODUCTOS/EL VT100 GPS/imgi_10_GPS-Tracker-with-fuel-monitoring-1.jpg",
+                "IMAGENES Y PRODUCTOS/EL VT100 GPS/imgi_11_small-gps-tracker-1.jpg",
+                "IMAGENES Y PRODUCTOS/EL VT100 GPS/imgi_8_GPS-Tracker-with-free-app-1.jpg"
             ],
-            description: "Localizador GPS portátil con potente imán y batería de larga duración. No requiere instalación. Ideal para seguimiento temporal o carga.",
-            specs: ["Batería de larga duración", "Fuerte sujeción magnética", "Fácil instalación"]
+            description: "EL VT100, Es un GPS de excelente calidad con certificación IP66, esto significa que soporta humedad del ambiente. Funciona con voltajes desde 9 a 100 volts. Admite incorporar un Rele para bloquear el vehiculo en caso de robo o uso no autorizado.",
+            specs: ["Certificación IP66", "Voltaje 9 a 100V", "Relé de bloqueo remoto"]
+        },
+        {
+            id: 2,
+            title: "Aplicación de Rastreo",
+            category: "GPS",
+            images: [
+                "IMAGENES Y PRODUCTOS/Aplicacion de Rastreo/PORTADA.jpg"
+            ],
+            description: "La APLICACION de rastreo. WWW.ITRACKCARE.COM es muy amigable, de fácil uso, permite revisión de los dispositivos instalados en tiempo real. el usuario puede programar esta aplicación para que envie un informe semanal del comportamiento del conductor, informes como: exceso de velocidad, detenciones en ruta, kilómetros recorridos, encendido y apagado del vehiculo, además de enviar el comando de bloqueo y desbloqueo del vehiculo en caso de robo. Esta aplicación se puede usar en cualquier computador ANDROID o APPLE y en cualquier teléfono.",
+            specs: ["Monitoreo en tiempo real", "Informes de comportamiento", "Bloqueo/desbloqueo remoto"]
         }
     ];
 
@@ -119,10 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <li><i class="fa-solid fa-check-circle"></i> ${product.specs[0]}</li>
                             <li><i class="fa-solid fa-check-circle"></i> ${product.specs[1]}</li>
                         </ul>
-                        <div style="background:rgba(255,107,0,0.1);border:1px solid var(--accent-color);padding:10px 14px;border-radius:8px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;">
-                            <span style="color:var(--text-light);font-size:0.88rem;"><i class="fa-solid fa-fire" style="color:var(--accent-color);margin-right:4px;"></i>¡Solo <strong class="card-units-left" style="color:var(--accent-color);">1</strong> unidad!</span>
-                            <span class="card-timer" style="color:white;font-weight:700;background:var(--accent-color);padding:3px 9px;border-radius:4px;font-size:0.82rem;">10:00</span>
-                        </div>
+
                         <div style="display:flex;gap:8px;">
                             <button class="btn view-details-btn" data-id="${product.id}" style="flex:1;padding:11px 8px;font-size:0.88rem;border:1.5px solid var(--primary-color);color:var(--primary-color);background:transparent;border-radius:var(--radius-full);cursor:pointer;font-weight:600;">
                                 <i class="fa-solid fa-expand"></i> Detalles
@@ -291,40 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     triggerAnimations();
 
-    // ── SOCIAL PROOF TOASTS ───────────────────────────────────────────────────
-    const toastContainer = document.getElementById('toast-container');
-    const toastMessages = [
-        'GPS Magnético vendido en Mejillones a BRAYAN M.',
-        'Empresa en Calama adquirió 5 Cámaras IA.',
-        'Instalación GPS VT100 finalizada en Antofagasta para JUAN P.',
-        'Cotización DVR Móvil enviada a constructora en Tocopilla.',
-        'Recuperación exitosa de vehículo en María Elena.'
-    ];
-    function showToast() {
-        if (!toastContainer) return;
-        const msg = toastMessages[Math.floor(Math.random() * toastMessages.length)];
-        const t = document.createElement('div');
-        t.className = 'toast';
-        t.innerHTML = `<div class="toast-icon"><i class="fa-solid fa-bell"></i></div><div class="toast-content"><p>${msg}</p><span class="time">Hace ${Math.floor(Math.random() * 59) + 1} min</span></div>`;
-        toastContainer.appendChild(t);
-        setTimeout(() => t.classList.add('show'), 10);
-        setTimeout(() => { t.classList.remove('show'); setTimeout(() => t.remove(), 500); }, 6000);
-    }
-    setTimeout(() => { showToast(); setInterval(showToast, 18000); }, 4000);
 
-    // ── COUNTDOWN EN TARJETAS ─────────────────────────────────────────────────
-    let timeRemaining = 10 * 60;
-    setInterval(() => {
-        if (timeRemaining > 0) timeRemaining--; else timeRemaining = 10 * 60;
-        const m = Math.floor(timeRemaining / 60).toString().padStart(2, '0');
-        const s = (timeRemaining % 60).toString().padStart(2, '0');
-        document.querySelectorAll('.card-timer').forEach(el => el.textContent = `${m}:${s}`);
-    }, 1000);
-    setInterval(() => {
-        document.querySelectorAll('.card-units-left').forEach(el => {
-            el.textContent = el.textContent.trim() === '1' ? '2' : '1';
-        });
-    }, 4500);
 
     // ── TYPED.JS ──────────────────────────────────────────────────────────────
     if (typeof Typed !== 'undefined' && document.getElementById('typed-text')) {
