@@ -241,6 +241,7 @@ img {
 .logo img {
     height: 80px;
     transition: var(--transition-normal);
+    filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.8));
 }
 
 .nav {
@@ -253,6 +254,7 @@ img {
     font-weight: 600;
     font-size: 1.1rem;
     position: relative;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
 .nav a::after {
@@ -1021,11 +1023,13 @@ img {
     backdrop-filter: blur(5px);
     opacity: 0;
     transition: opacity var(--transition-normal);
+    overflow-y: auto;
+    padding: 20px;
 }
 
 .modal.show {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     opacity: 1;
 }
@@ -1035,14 +1039,13 @@ img {
     margin: auto;
     padding: 0;
     border: 1px solid var(--border-color);
-    width: 90%;
+    width: 100%;
     max-width: 800px;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
     position: relative;
     transform: translateY(-50px);
     transition: transform var(--transition-normal);
-    overflow: hidden;
 }
 
 .modal.show .modal-content {
